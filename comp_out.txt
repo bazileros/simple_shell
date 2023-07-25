@@ -1,0 +1,52 @@
+/usr/bin/ld: /tmp/ccxYcQfI.o: in function `add_node':
+add_node.c:(.text+0x56): undefined reference to `_memset'
+/usr/bin/ld: /tmp/ccpd5XaL.o: in function `main':
+control.c:(.text+0xbc): undefined reference to `_eputs'
+/usr/bin/ld: control.c:(.text+0xcb): undefined reference to `_eputs'
+/usr/bin/ld: control.c:(.text+0xe1): undefined reference to `_eputs'
+/usr/bin/ld: control.c:(.text+0x127): undefined reference to `read_history'
+/usr/bin/ld: control.c:(.text+0x13d): undefined reference to `hsh'
+/usr/bin/ld: /tmp/ccRROdaF.o: in function `_setenv':
+custom_setenv.c:(.text+0x47): undefined reference to `_strcpy'
+/usr/bin/ld: custom_setenv.c:(.text+0x108): undefined reference to `add_node_end'
+/usr/bin/ld: /tmp/ccgYi8I7.o: in function `_unsetenv':
+custom_unsetenv.c:(.text+0x8c): undefined reference to `delete_node_at_index'
+/usr/bin/ld: /tmp/ccO0YVEp.o: in function `find_builtin':
+find_builtin_cmds.c:(.text+0x8b): undefined reference to `_myhistory'
+/usr/bin/ld: find_builtin_cmds.c:(.text+0xe3): undefined reference to `_myalias'
+/usr/bin/ld: /tmp/ccLgot03.o: in function `fork_cmd':
+fork_process.c:(.text+0x40): undefined reference to `get_environ'
+/usr/bin/ld: /tmp/cckJdMiw.o: in function `get_history_file':
+get_historyF.c:(.text+0x90): undefined reference to `_strcpy'
+/usr/bin/ld: /tmp/ccUeo5Kb.o: in function `get_input':
+get_input.c:(.text+0xda): undefined reference to `is_chain'
+/usr/bin/ld: /tmp/ccqBElGl.o: in function `build_history_list':
+history_list.c:(.text+0x59): undefined reference to `add_node_end'
+/usr/bin/ld: /tmp/ccm0Eiqe.o: in function `input_buf':
+input_buf.c:(.text+0x64): undefined reference to `sigintHandler'
+/usr/bin/ld: /tmp/ccGl0cJ9.o: in function `list_to_strings':
+list_to_string.c:(.text+0x20): undefined reference to `list_len'
+/usr/bin/ld: list_to_string.c:(.text+0xfb): undefined reference to `_strcpy'
+/usr/bin/ld: /tmp/ccNwqlAq.o: in function `_mycd':
+mycd.c:(.text+0x23f): undefined reference to `_eputs'
+/usr/bin/ld: /tmp/ccPIQlQa.o: in function `_myexit':
+myexit.c:(.text+0x7c): undefined reference to `_eputs'
+/usr/bin/ld: /tmp/ccAIDIHr.o: in function `_mysetenv':
+my_setenv.c:(.text+0x27): undefined reference to `_eputs'
+/usr/bin/ld: /tmp/ccYdVXp5.o: in function `_myunsetenv':
+my_unsetenv.c:(.text+0x27): undefined reference to `_eputs'
+/usr/bin/ld: /tmp/ccYkbjoV.o: in function `populate_env_list':
+populate_env_list.c:(.text+0x56): undefined reference to `add_node_end'
+/usr/bin/ld: /tmp/ccmxrjCu.o: in function `print_error':
+print_errors.c:(.text+0x20): undefined reference to `_eputs'
+/usr/bin/ld: print_errors.c:(.text+0x2f): undefined reference to `_eputs'
+/usr/bin/ld: print_errors.c:(.text+0x42): undefined reference to `print_d'
+/usr/bin/ld: print_errors.c:(.text+0x51): undefined reference to `_eputs'
+/usr/bin/ld: print_errors.c:(.text+0x64): undefined reference to `_eputs'
+/usr/bin/ld: print_errors.c:(.text+0x73): undefined reference to `_eputs'
+/usr/bin/ld: print_errors.c:(.text+0x7f): undefined reference to `_eputs'
+/usr/bin/ld: /tmp/cc1EiTUv.o: in function `set_alias':
+set_alias.c:(.text+0x87): undefined reference to `add_node_end'
+/usr/bin/ld: /tmp/ccWZhTiO.o: in function `unset_alias':
+unset_alias.c:(.text+0x8a): undefined reference to `delete_node_at_index'
+collect2: error: ld returned 1 exit status
