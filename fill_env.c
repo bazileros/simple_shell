@@ -1,12 +1,12 @@
 #include "shell.h"
 
 /**
- * populate_env_list - populates env linked list
+ * fill_env - fills env linked list
  * @info: Structure containing potential arguments. Used to maintain
  *          constant function prototype.
  * Return: Always 0
  */
-int populate_env_list(info_t *info)
+int fill_env(info_t *info)
 {
 	list_t *node = NULL;
 	size_t i;
