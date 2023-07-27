@@ -168,7 +168,7 @@ char *_getenv(info_t *, const char *);
 int _myenv(info_t *);
 int _mysetenv(info_t *);
 int _myunsetenv(info_t *);
-int populate_env_list(info_t *);
+int fill_env(info_t *);
 int print_alias(list_t *node);
 int set_alias(info_t *info, char *str);
 int unset_alias(info_t *info, char *str);
