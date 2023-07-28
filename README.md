@@ -17,14 +17,23 @@ Simple Shell is a basic UNIX command line interpreter implemented in C. It provi
 
 ## Getting Started
 
-To compile the shell, run the following command: gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+To compile the shell, run the following command:
+```bash
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
 
 
 
-To run the shell in interactive mode, use: ./hsh
+To run the shell in interactive mode, use:
+```bash
+./hsh
+```
 
 
-To run the shell in batch mode with a file, use: ./hsh [filename]
+To run the shell in batch mode with a file, use:
+```bash
+./hsh [filename]
+```
 
 
 
@@ -32,12 +41,14 @@ To run the shell in batch mode with a file, use: ./hsh [filename]
 
 Once the shell is running, you can type commands and execute them. Here are some examples:
 
+```bash
 $ ls
 $ pwd
 $ cd /path/to/directory
 $ alias list="ls -l"
 $ list
 $ exit
+```
 
 
 
