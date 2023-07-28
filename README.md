@@ -1,5 +1,7 @@
 # Simple Shell
 
+![Simple~shell Screenshot](https://github.com/bazileros/simple_shell/blob/main/assets/Screenshot_20230728_084721.png)
+
 Simple Shell is a basic UNIX command line interpreter implemented in C. It provides a simple interface for users to execute commands, handle built-in functionalities, and perform variable substitution. The shell supports various features such as executing external commands, handling built-in commands, environment variables, aliases, and file input.
 
 ## Features
